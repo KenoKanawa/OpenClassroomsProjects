@@ -8,10 +8,12 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 st.header('Prédiction de sujets Stackoverflow')
 
 # Entrée titre
-title = st.text_input('Titre de la question :')
+defaultTitle = 'How to convert a Decimal to a Double in C#?'
+title = st.text_input('Titre de la question :', defaultTitle)
 
 # Entrée question
-body = st.text_area('Corps de la question :')
+defaultBody = "<p>I want to use a <code>Track-Bar</code> to change a <code>Form</code>'s opacity.</p><p>This is my code:</p><pre><code>decimal trans = trackBar1.Value / 5000;this.Opacity = trans;</code></pre><p>When I build the application, it gives the following error:</p><blockquote><pre><code>Cannot implicitly convert type decimal to double</code></pre></blockquote><p>I have tried using <code>trans</code> and <code>double</code>, but then the <code>Control</code> doesn't work. This code worked fine in a past VB.NET project.</p>"
+body = st.text_area('Corps de la question :', defaultBody)
 
 # Appui sur le bouton de prédiction
 if st.button("Prédire"):
