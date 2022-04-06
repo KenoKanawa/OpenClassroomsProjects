@@ -1,5 +1,6 @@
 nltk==3.7
 contractions
+sklearn
 beautifulsoup4==4.10.0
 gensim==4.1.2
 streamlit
