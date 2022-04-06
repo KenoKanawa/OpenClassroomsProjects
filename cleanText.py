@@ -62,7 +62,7 @@ lemmatizer = WordNetLemmatizer()
 stemmer = SnowballStemmer(language='english')
 
 # Initialisation du correcteur
-spell = Speller(lang='en')
+# spell = Speller(lang='en')
 
 
 # Retrait des stopwords
