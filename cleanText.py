@@ -4,11 +4,9 @@ import html as ihtml
 import nltk
 nltk.download('words')
 nltk.download('punkt')
-import contractions
-
-"""nltk.download('wordnet')
 nltk.download('averaged_perceptron_tagger')
-nltk.download('omw-1.4')"""
+nltk.download('omw-1.4')
+import contractions
 
 # Mots du dictionnaire anglais
 from nltk.corpus import words
