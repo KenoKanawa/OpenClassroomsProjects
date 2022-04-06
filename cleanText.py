@@ -3,10 +3,10 @@ import re
 import html as ihtml
 import nltk
 nltk.download('words')
+nltk.download('punkt')
 import contractions
 
 """nltk.download('wordnet')
-nltk.download('punkt')
 nltk.download('averaged_perceptron_tagger')
 nltk.download('omw-1.4')"""
 
