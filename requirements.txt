@@ -1,5 +1,5 @@
 nltk==3.7
-contractions==2.0.1
+contractions
 re
 beautifulsoup4==4.10.0
 pickle
